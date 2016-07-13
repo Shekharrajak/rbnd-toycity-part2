@@ -1,9 +1,41 @@
 require 'json'
-path = File.join(File.dirname(__FILE__), '../data/products.json')
-file = File.read(path)
-products_hash = JSON.parse(file)
+
+# Get path to products.json, read the file into a string,
+# and transform the string into a usable hash
+def setup_files
+    path = File.join(File.dirname(__FILE__), '../data/products.json')
+    file = File.read(path)
+    $products_hash = JSON.parse(file)
+end
+
+def print_date
+  time = Time.new
+  line = "-- Date \n" + "today's date : " + time.inspect + "\n\n"
+  print_in_file(line)
+end
+
+def print_in_file(line)
+  File.open("../report.txt", "a") do |file|
+    file.puts line
+  end
+end
 
 # Print "Sales Report" in ascii art
+def method_name
+
+end
+def create_report
+    print_date
+end
+
+def start
+  setup_files # load, read, parse, and create the files
+  create_report # create the report!
+end
+
+start # call start method to trigger report generation
+
+
 
 # Print today's date
 
