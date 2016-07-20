@@ -70,10 +70,15 @@ def product_report
   print_products_header
 
   $products_hash["items"].each do |_item|
+    # Print the name of the toy
     print("title : " + _item["title"])
+     # Print the retail price of the toy
     print("price : " + _item["price"])
+    # Calculate and print the total number of purchases
     print("purchases : " + _item["purchases"].size)
+    # Calculate and print the total amount of sales
     print("amount of sales : " + amount_sale(_item))
+    # Calculate and print the average price the toy sold for
 
   end
 end
@@ -88,12 +93,10 @@ def create_report
     print_date
 
     # Products report
-    # For each product in the data set:
-    # Print the name of the toy
-    # Print the retail price of the toy
-    # Calculate and print the total number of purchases
-    # Calculate and print the total amount of sales
-    # Calculate and print the average price the toy sold for
+
+
+
+
     # Calculate and print the average discount (% or $) based off the average sales price
     product_report
 
