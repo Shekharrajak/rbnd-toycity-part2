@@ -1,3 +1,45 @@
+commit 0fadf20d9cbe4d832ed221a9de107ff7b5afb8e4
+Author: Shekhar Prasad Rajak <shekharrajak@live.com>
+Date:   Wed Jul 20 15:38:52 2016 +0530
+
+    done project
+
+commit 8156e20b56528fb0da1d53e4aebbf07564bb3b05
+Author: Shekhar Prasad Rajak <shekharrajak@live.com>
+Date:   Wed Jul 20 14:59:29 2016 +0530
+
+    ascii print
+
+commit 9d60429ff67de873f38dfd8d4c9b8d34532160bd
+Author: Shekhar Prasad Rajak <shekharrajak@live.com>
+Date:   Wed Jul 20 14:57:46 2016 +0530
+
+    ascii print
+
+commit 9e417e93b28a0bec0c1521390559215250995fa2
+Author: Shekhar Prasad Rajak <shekharrajak@live.com>
+Date:   Wed Jul 20 14:28:53 2016 +0530
+
+    ascii print
+
+commit 174dab0268236e31de9816b2c1f2ea2dc5773325
+Author: Shekhar Prasad Rajak <shekharrajak@live.com>
+Date:   Wed Jul 20 14:18:42 2016 +0530
+
+    ascii print
+
+commit 83b2e05661ee58bf697e3b595272d449f6de0c84
+Author: Shekhar Prasad Rajak <shekharrajak@live.com>
+Date:   Wed Jul 20 14:08:29 2016 +0530
+
+    ascii print
+
+commit 90ed083176fdeb2dfdb3eca33d7aa3c382ef7616
+Author: Shekhar Prasad Rajak <shekharrajak@live.com>
+Date:   Wed Jul 13 23:14:03 2016 +0530
+
+    1st attempt
+
 commit e8e5b28ecfd2ee1b96b1605fdd0c6d50147cb708
 Author: Shekhar Prasad Rajak <shekharrajak@live.com>
 Date:   Fri Jul 8 22:09:58 2016 +0530
